@@ -1,0 +1,41 @@
+<!--  
+    Author: Alejandro Altuve 10/13/2024
+    Assignment: Game!
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Dice Game</title> 
+    <link rel="stylesheet" href="game.css">
+    <script defer src="game.js"></script> 
+</head>
+<body>
+    <p>WARNING: WHEN YOU CLICK ROLL DICE, MUSIC MAY BE LOUD, SO TURN DOWN YOUR DEVICE'S AUDIO</p>
+    <div class="container">
+        <header>
+        <h1>Dice Game</h1>
+    </header>
+    <nav>
+    <a href="./palindrome.html">Palindrome</a><br>
+    </nav>
+    <nav>
+    <a href="./navs.html">Go Back To Main Page</a><br>
+    </nav> 
+        <!-- Button to trigger the game function when clicked --> 
+        <button onclick="playGame()">Roll Dice</button> 
+        <p id="result"></p> 
+        <!-- Adjusted image size -->
+        <img id="memeImage" src="dice.jpg" alt="Game Image" width="600">
+        <!-- Audio element for background music -->
+        <audio id="gameMusic" src="robot music.mp3" loop preload="auto"></audio>
+    </div>
+    <footer>
+        <br>
+        University of Advancing Technology 2625 W Baseline Rd, Tempe, AZ 85283, USA<br>
+        <a href="https://www.uat.edu/" target="_blank">Start Your Technology Journey Here Now</a>
+       <p>&copy; 2024 Example Footer | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* Body styling */
+body {
+  background-color: rgb(255, 240, 212);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make paragraph text larger for desktop */
+p {
+  font-size: 24px; 
+  margin-bottom: 20px;
+}
+
+/* Adjust h1 size for desktop */
+h1 {
+  font-size: 32px;
+}
+
+/* Adjust button size for desktop */
+button {
+  font-size: 20px;
+}
+
+/* Style for the image */
+#diceImage {
+  width: 600px;
+  height: auto;
+}
+
+/* Footer styling */
+footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for phones (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Adjust body padding */
+  body {
+    padding: 10px;
+  }
+
+  /* Make paragraph text smaller */
+  p {
+    font-size: 18px;
+  }
+
+  /* Adjust h1 size for smaller screens */
+  h1 {
+    font-size: 24px;
+  }
+
+  /* Adjust button size for smaller screens */
+  button {
+    font-size: 18px;
+  }
+
+  /* Adjust image size for smaller screens */
+  #diceImage {
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Set a max-width for better scaling */
+    height: auto;
+  }
+
+  /* Footer adjustments */
+  footer {
+    padding: 15px;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}

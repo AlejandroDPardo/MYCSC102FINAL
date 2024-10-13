@@ -1,0 +1,135 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the container (main body content) */
+body {
+    background-color: rgb(255, 240, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Styling for the main container */
+.container {
+    display: flex;
+    justify-content: center; /* Center the table container */
+    width: 100%;
+}
+
+/* Left container styles */
+.left-container {
+    background-color:  rgba(98, 0, 234, 0.8); 
+    width: 20%; /* Smaller width */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Right container styles */
+.right-container {
+    background-color:  rgba(98, 0, 234, 0.8); 
+    width: 20%; /* Smaller width */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Table container styles */
+.table-container {
+    flex: 1; /* Allows this container to take up the remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; /* Optional: Add some padding around the table */
+}
+
+table {
+    width: 100%; 
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-image: url('planets.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white; 
+}
+
+th, td {
+    padding: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    text-align: center;
+}
+
+th {
+    background-color: rgba(98, 0, 234, 0.8); 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: transparent; 
+}
+
+tr:hover {
+    background-color: rgba(255, 224, 178, 0.7); 
+}
+
+/* Button styling */
+#highlightButton {
+    background-color: rgba(98, 0, 234, 0.8); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; 
+}
+
+#highlightButton:hover {
+    background-color: rgba(98, 0, 234, 0.8); 
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

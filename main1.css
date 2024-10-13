@@ -1,0 +1,58 @@
+/* Center the container (main body content) */
+body {
+  background-color: rgb(255, 240, 212);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Optional: Apply a font for better readability */
+}
+
+/* Header styling */
+h1 {
+  font-size: 2.5rem; 
+  margin-top: 20px; 
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.5rem; 
+  line-height: 1.8; 
+  margin-bottom: 20px; 
+}
+
+/* Image styling for meme */
+#memeImage {
+  max-width: 100%; /* Ensure the image scales with the screen */
+  height: auto;
+  margin: 20px 0; /* Add some space around the image */
+}
+
+/* Footer styling */
+footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
